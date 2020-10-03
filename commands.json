@@ -1,0 +1,77 @@
+{
+    "autoplay": {
+        "help": [
+            "%p%autoplay [view]",
+            "Shows autoplay settings and queue.",
+            "%p%autoplay [start | play | pause | stop | clear]",
+            "Starts, pauses, or clears the autoplay queue.",
+            "%p%autoplay settimer [time (sec)]",
+            "Sets the autoplay timer.",
+            "%p%autoplay add [index] [command]",
+            "Adds a command to autoplay [at index].",
+            "%p%autoplay remove [index]",
+            "Removes a command from autoplay."
+        ]
+    }, "clear": {
+        "help": [
+            "%p%clear",
+            "Clears the play queue."
+        ]
+    }, "help": {
+        "help": [
+            "%p%help",
+            "Lists all commands.",
+            "%p%help [command]",
+            "Shows how to use a specific command."
+        ]
+    }, "join": {
+        "help": [
+            "%p%join",
+            "Moves the bot to the voice channel that you are connected in."
+        ]
+    }, "leave": {
+        "help": [
+            "%p%leave",
+            "Tells the bot to leave the current voice channel."
+        ]
+    }, "list": {
+        "help": [
+            "%p%list",
+            "Lists all champions with playable voice lines",
+            "%p%list [champion] [page number]",
+            "Lists all playable voice lines of a specific champion"
+        ]
+    }, "load": {
+        "help": [
+            "%p%load [all | champion | champions]",
+            "Loads all lines."
+        ]
+    }, "play": {
+        "help": [
+            "%p%play [champion | keywords | line] [keywords | line] [\"repeat\"(times)] [delay (sec)]",
+            "Plays a line from a champion."
+        ]
+    }, "queue": {
+        "help": [
+            "%p%queue",
+            "Views the queue list."
+        ]
+    }, "save": {
+        "help": [
+            "%p%save",
+            "Saves data."
+        ]
+    }, "select": {
+        "help": [
+            "%p%select [page number]",
+            "Shows other pages from the search result.",
+            "%p%select [champion] [index] [\"repeat\"(times)] [delay (sec)]",
+            "Selects a line."
+        ]
+    }, "skip": {
+        "help": [
+            "%p%skip",
+            "Skips the first one in the queue."
+        ]
+    }
+}

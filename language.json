@@ -1,0 +1,101 @@
+{
+    "champion": {
+        "invalidChampionName": "Invalid champion name!",
+        "noLines": "That champion has no lines stored!"
+    },
+
+    "searchResult": {
+        "invalidSearch": "Invalid search!",
+
+        "multipleSearchResults": "Found multiple search results (%num%).",
+        "showingPageResult": "Showing results %min%-%max% of %all% | Page %page% of %lastpage%",
+        "selectCommand": "Do %p%select [champion] [index] [\"repeat\"(times)] [delay (sec)] to select one.",
+        "pageCommand": "Do %p%select [page number] to view other pages."
+    },
+
+    "pageOutOfBounds": "Page %page% not found!",
+    "outOfBounds": "Out of bounds!",
+
+    "message": {
+        "autodelete": "This message will be deleted in %t% seconds.",
+        "error": "An unexpected error has occurred."
+    },
+
+    "commands": {
+        "notInServer": "Some commands won't work if you're not in a server!",
+        "invalidCommand": "Invalid command!",
+        "NaN": "%n% is not a number!",
+        "notEnoughArguments": "Not enough arguments!",
+        "invalidUse": "Invalid use of command! Do %p%help %cmd% to learn about this command.",
+
+        "autoplay": {
+            "view": {
+                "empty": "AutoPlay is empty!"
+            },
+            "play": "Starting autoplay...",
+            "pause": "Autoplay paused.",
+            "clear": "Cleared autoplay settings.",
+            "settimer": "Autoplay timer set to %t% seconds.",
+            "add": {
+                "rChampionrLine": "Added [random] to autoplay.",
+                "sChampionrLine": "Added [%c%] [random] to autoplay.",
+                "sChampionsLine": "Added %c%'s line: %l% to autoplay.",
+                "multipleSearchResults": "Multiple search results found, select one to add."
+            },
+            "remove": "Removed item at index %i%."
+        },
+
+        "list": {
+            "showingPage": "Showing lines %min%-%max% of %all% | Page %page% of %lastpage%",
+            "pageOutOfBounds": "Page %page% not found!"
+        },
+
+        "load": {
+            "loadingList": "Loading list of champions...",
+            "finishedLoadingList": "Finished loading all %num% champions.",
+            "alreadyLoadedList": "List of champions has already been loaded!",
+
+            "loadingChampionLines": "Loading %c%'s lines...",
+            "finishedLoadingChampionLines": "Finished loading %c%'s lines (%num%).",
+            "alreadyLoadedChampionLines": "That champion has already been loaded!",
+
+            "loadingAllChampionLines": "%p% Loading all lines (%num% champions)...",
+            "progressLoadingAllChampionLines": "%p% Loading all lines (%lc%/%num% champions) : Added %c% (%nl% lines).",
+            "finishedLoadingAllChampionLines": "Finished loading all lines (%c% champions, %num% total lines).",
+            "errorLoadingChampionLines": "%num% unsuccessful: %ca%"
+        },
+
+        "play": {
+            "addedToQueue": "Added %c%'s line: %l% to queue."
+        },
+
+        "save": {
+            "saving": "Saving database...",
+            "finishedSaving": "Finished saving database."
+        },
+
+        "select": {
+            "invalidChampion": "That champion is not in the search results!",
+            "invalidIndex": "That index is not in the search results!"
+        },
+
+        "skip": {
+            "success": "Skipped the first one in the queue."
+        }
+    },
+
+    "user": {
+        "notInVoiceChannel": "You are not in a voice channel! Please join one first."
+    },
+
+    "bot": {
+        "notInVoiceChannel": "I am not in a voice channel!",
+        "joinedVoiceChannel": "Joined voice channel %vc%.",
+        "leftVoiceChannel": "Left voice channel %vc%."
+    },
+
+    "queue": {
+        "isEmpty": "Queue is empty.",
+        "cleared": "Cleared queue."
+    }
+}
