@@ -13,7 +13,7 @@
         "pageCommand": "Do %p%select [page number] to view other pages."
     },
 
-    "pageOutOfBounds": "Page %page% not foundee!",
+    "pageOutOfBounds": "Page %page% not found!",
     "outOfBounds": "Out of bounds!",
 
     "message": {
