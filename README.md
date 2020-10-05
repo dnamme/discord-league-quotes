@@ -6,7 +6,7 @@ League Quotes is a Discord bot made using Node.js and FFMPEG. It's the first and
 
 ## What it does.
 
-League Quotes lets you play **all** League of Legends champion voice lines on Discord - from the Star Guardian Ahri "Victory!" VO up to Aphelios' grunts, League Quotes can play them all for you!
+League Quotes lets you play **all** League of Legends champion voice lines on Discord - from the *Star Guardian Ahri "Victory!"* line up to Aphelios' grunts, League Quotes can play them all for you!
 
 ![Finished loading all lines (148 champions, 27292 total lines).](./img/all-lines.jpg)
 
